@@ -1,0 +1,122 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+    /* border: 2px solid red; */
+    /* height: 500px; */
+
+}
+
+.item ul{
+    /* font-size: large; */
+    display: flex;
+    list-style-type: none;
+    color: rgb(27, 26, 26);
+    gap: 20px;
+}
+.item ul li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.item ul li span{
+    padding: 0 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 35px;
+    margin: 60px 120px;
+    font-weight: 400;
+}
+.first span{
+    font-size: 42px;
+}
+.first div{
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+    padding: 14px 16px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: #00b6d1;
+    color: #ffffff;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.green a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.green{
+    background-color: #5cb85c;
+    padding: 10px 12px;
+}
+.blue a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.blue{
+    padding: 10px 12px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+    margin: auto;
+    font-weight: 100;
+}
+.download {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.download img{
+    width: auto;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.small{
+    font-size: 15px;
+    align-items: baseline;
+    margin: 0px 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px 15px;
+}
+.container{
+    padding: 10px 2px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+.item2{
+    text-align: center;
+    padding-bottom: 46px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+@media screen and (max-width: 980px ) {
+    .grid{
+        grid-template-columns: 1fr;
+
+    }
+}
